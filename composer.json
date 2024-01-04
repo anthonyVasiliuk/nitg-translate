@@ -1,0 +1,22 @@
+{
+    "name": "nitg/nitg-translate",
+    "description": "NITG Laravel Models Translation package",
+    "type": "library",
+    "require": {
+        "laravel/laravel": "^10",
+        "matecat/xliff-parser": "^2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nitg\\NitgTranslate\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Antony Vasiliuk",
+            "email": "anthony.vbrest@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
