@@ -1,6 +1,12 @@
 # nitg-translate
 NITG Laravel models translations package
 
+# Installation
+
+``composer config 'repositories.nitg/nitg-translate' git https://github.com/anthonyVasiliuk/nitg-translate``
+
+``composer install nitg/nitg-translate``
+
 # Usage
 
 run migrations ``php artisan migrate``

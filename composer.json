@@ -1,5 +1,5 @@
 {
-    "name": "anthonyvasiliuk/nitg-translate",
+    "name": "nitg/nitg-translate",
     "description": "NITG Laravel Models Translation package",
     "type": "library",
     "require": {
