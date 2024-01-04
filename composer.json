@@ -1,5 +1,5 @@
 {
-    "name": "nitg/nitg-translate",
+    "name": "anthonyvasiliuk/nitg-translate",
     "description": "NITG Laravel Models Translation package",
     "type": "library",
     "require": {
@@ -19,5 +19,12 @@
             "email": "anthony.vbrest@gmail.com"
         }
     ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NITG\\NitgTranslate\\Providers\\NitgTranslateProvider"
+            ]
+        }
+    },
     "minimum-stability": "stable"
 }
