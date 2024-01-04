@@ -6,6 +6,7 @@
         "laravel/laravel": "^10",
         "matecat/xliff-parser": "^2.0"
     },
+    "prefer-stable": true,
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -18,5 +19,5 @@
             "email": "anthony.vbrest@gmail.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
