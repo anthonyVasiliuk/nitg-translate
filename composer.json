@@ -3,7 +3,7 @@
     "description": "NITG Laravel Models Translation package",
     "type": "library",
     "require": {
-        "laravel/laravel": "^10",
+        "laravel/framework": "^9",
         "matecat/xliff-parser": "^2.0"
     },
     "prefer-stable": true,
