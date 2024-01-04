@@ -1,7 +1,7 @@
 <?php
 
-use App\Http\Controllers\Translate\TranslateImportController;
-use NITG\NitgTranslate\Controllers\TranslateExportController;
+use Nitg\NitgTranslate\Controllers\TranslateExportController;
+use Nitg\NitgTranslate\Controllers\TranslateImportController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/translate-export', [TranslateExportController::class, 'export'])->middleware('auth:api');

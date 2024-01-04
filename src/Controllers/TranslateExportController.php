@@ -1,6 +1,6 @@
 <?php
 
-namespace NITG\NitgTranslate\Controllers;
+namespace Nitg\NitgTranslate\Controllers;
 
 use Illuminate\Container\Container;
 use Illuminate\Database\Eloquent\Model;

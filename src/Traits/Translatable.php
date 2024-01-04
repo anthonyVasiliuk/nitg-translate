@@ -1,9 +1,9 @@
 <?php
 
-namespace NITG\NitgTranslate\Traits;
+namespace Nitg\NitgTranslate\Traits;
 
 
-use NITG\NitgTranslate\Models\Translate;
+use Nitg\NitgTranslate\Models\Translate;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 
 trait Translatable

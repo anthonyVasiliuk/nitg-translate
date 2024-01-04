@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "NITG\\NitgTranslate\\Providers\\NitgTranslateProvider"
+                "Nitg\\NitgTranslate\\Providers\\NitgTranslateProvider"
             ]
         }
     },

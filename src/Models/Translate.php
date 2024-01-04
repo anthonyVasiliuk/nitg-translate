@@ -1,6 +1,6 @@
 <?php
 
-namespace NITG\NitgTranslate\Models;
+namespace Nitg\NitgTranslate\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

@@ -1,10 +1,10 @@
 <?php
 
-namespace NITG\NitgTranslate\Controllers;
+namespace Nitg\NitgTranslate\Controllers;
 
 use Illuminate\Http\Request;
 use Matecat\XliffParser\XliffParser;
-use NITG\NitgTranslate\Models\Translate;
+use Nitg\NitgTranslate\Models\Translate;
 
 class TranslateImportController
 {

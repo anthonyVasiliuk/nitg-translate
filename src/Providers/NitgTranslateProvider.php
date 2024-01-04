@@ -1,6 +1,6 @@
 <?php
 
-namespace NITG\NitgTranslate\Providers;
+namespace Nitg\NitgTranslate\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
