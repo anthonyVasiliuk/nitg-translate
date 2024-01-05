@@ -12,6 +12,7 @@ class TranslateExportController
     public function export()
     {
         ini_set('memory_limit', '-1');
+        ini_set('max_execution_time', '-1');
         try {
             $file = self::getXmlBody();
             self::getTranslatableModels()?->map(function ($model) use (&$file) {

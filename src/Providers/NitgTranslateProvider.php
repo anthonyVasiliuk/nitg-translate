@@ -2,7 +2,9 @@
 
 namespace Nitg\NitgTranslate\Providers;
 
+use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Support\ServiceProvider;
+use Nitg\NitgTranslate\Controllers\TranslateExportController;
 
 class NitgTranslateProvider extends ServiceProvider
 {
@@ -27,6 +29,10 @@ class NitgTranslateProvider extends ServiceProvider
         $this->loadMigrationsFrom(__DIR__.'/../../migrations/create_translates_table.php');
         $this->publishes([
             __DIR__.'/../config/nitg-translate.php' => config_path('nitg-translate.php'),
-        ], 'courier-config');
+        ], 'config');
+
+        Relation::enforceMorphMap(
+            array_combine(TranslateExportController::getTranslatableModels()->toArray(), TranslateExportController::getTranslatableModels()->toArray())
+        );
     }
 }

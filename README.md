@@ -15,6 +15,9 @@ use ``Translatable`` Trait in desirable model,
 
 add ``$translatable = ['fields to translate', ...];`` in model
 
+add ``$casts = ['field to translate' => TranslateCast::class, ... ];`` in model 
+to cast selected fields with values regarding header localization value
+
 # Routes
 
 ``GET /tranaslate-export?lang={lang}`` : generates ``xlf`` file
