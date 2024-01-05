@@ -25,5 +25,8 @@ class NitgTranslateProvider extends ServiceProvider
     {
         $this->loadRoutesFrom(__DIR__.'/../../routes/api.php');
         $this->loadMigrationsFrom(__DIR__.'/../../migrations/create_translates_table.php');
+        $this->publishes([
+            __DIR__.'/../config/nitg-translate.php' => config_path('nitg-translate.php'),
+        ], 'courier-config');
     }
 }
