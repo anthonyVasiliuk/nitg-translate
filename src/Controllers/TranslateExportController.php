@@ -44,7 +44,7 @@ class TranslateExportController
                 if (class_exists($class)) {
                     $reflection = new \ReflectionClass($class);
                     $valid = $reflection->isSubclassOf(Model::class) &&
-                        !$reflection->isAbstract() && in_array('App\Traits\Translatable', $reflection->getTraitNames());
+                        !$reflection->isAbstract() && in_array('Nitg\\NitgTranslate\\Traits\\Translatable', $reflection->getTraitNames());
                 }
                 return $valid;
             });

@@ -17,10 +17,10 @@ add ``$translatable = ['fields to translate', ...];`` in model
 
 # Routes
 
-``GET /api/tranaslate-export?lang={lang}`` : generates ``xlf`` file
+``GET /tranaslate-export?lang={lang}`` : generates ``xlf`` file
 with all fields to translate. File name is ``{APP_NAME}_{lang}.xlf``
 
 parameter {lang} default lang is 'de'
 
-``POST /api/translate-import`` : request should be form-data 
+``POST /translate-import`` : request should be form-data 
 with parameter ``file`` with translated ``xlf`` file
