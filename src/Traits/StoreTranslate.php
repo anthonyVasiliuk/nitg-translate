@@ -8,9 +8,9 @@ use Nitg\NitgTranslate\Models\Translate;
 trait StoreTranslate
 {
 
-    public function store($entityId, $entityType, $lang, $value): void
+    public function storeTranslate($entityId, $entityType, $lang, $value)
     {
-        Translate::query()->updateOrCreate([
+        return Translate::query()->updateOrCreate([
             'translatable_id'   => $entityId,
             'translatable_type' => Relation::getMorphedModel($entityType),
             'lang'              => $lang,
